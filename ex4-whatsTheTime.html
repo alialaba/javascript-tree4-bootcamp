@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whats Time</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: yellow;
+        }
+        
+        .current-time {
+            display: flex;
+        }
+        
+        .wrapper {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 50px;
+        }
+        
+        #current-time {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1>What's the Time</h1>
+        <div class="current-time">
+            <h1 id="hour"></h1>
+            <h1>:</h1>
+            <h1 id="minute"></h1>
+            <h1>:</h1>
+            <h1 id="second"></h1>
+            <h2 id="timeOfDay"></h2>
+        </div>
+    </div>
+
+    <script src="ex4-whatsTheTime.js"></script>
+</body>
+
+</html>
