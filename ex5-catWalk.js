@@ -14,14 +14,13 @@
 let imgTag = document.querySelector("img");
 let imgSrc = imgTag.getAttribute("src");
 // console.log(imgSrc);
-let startTime = new Date.getTime()
-console.log(startTime);
+
 
 
 // imgTag.style.left = "0px"
 // console.log(imgTag)
 
 // function catWalk() {
-//     imgTag.style.right = "1000px";
+//     
 // }
 // setInterval(catWalk, 50)
