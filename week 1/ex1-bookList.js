@@ -18,25 +18,25 @@
 
 
 const books = [{
-        title: 'The Design of Everyday Things',
-        author: 'Don Norman',
-        alreadyRead: false,
-        URL: "https://khajuribazar.s3.amazonaws.com/__sized__/products/28-thumbnail-540x540-70.JPG"
-    },
-    {
-        title: 'The Most Human Human',
-        author: 'Brian Christian',
-        alreadyRead: true,
-        URL: "https://images1.penguinrandomhouse.com/cover/9780307476708 "
+    title: 'The Design of Everyday Things',
+    author: 'Don Norman',
+    alreadyRead: false,
+    URL: "https://khajuribazar.s3.amazonaws.com/__sized__/products/28-thumbnail-540x540-70.JPG"
+},
+{
+    title: 'The Most Human Human',
+    author: 'Brian Christian',
+    alreadyRead: true,
+    URL: "https://images1.penguinrandomhouse.com/cover/9780307476708 "
 
-    },
-    {
-        title: 'The Pragmatic Programmer',
-        author: 'Andrew Hunt',
-        alreadyRead: true,
-        URL: "https://upload.wikimedia.org/wikipedia/en/8/8f/The_pragmatic_programmer.jpg"
+},
+{
+    title: 'The Pragmatic Programmer',
+    author: 'Andrew Hunt',
+    alreadyRead: true,
+    URL: "https://upload.wikimedia.org/wikipedia/en/8/8f/The_pragmatic_programmer.jpg"
 
-    }
+}
 ];
 let bookList = document.getElementById("bookList");
 books.forEach((book) => {
