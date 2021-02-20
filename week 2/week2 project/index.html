@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/76ab3948f6.js" crossorigin="anonymous"></script>
+    <title>Pomodoro Clock</title>
+    <style>
+        body {
+            background-color: rgb(31, 85, 92);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Kanit', sans-serif;
+            font-size: 1.5rem;
+            /* height: 100vh;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; */
+
+        }
+
+        section {
+            line-height: 1.2;
+            text-align: center;
+            color: #fff;
+            height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .pomodoro-control {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .pomodoro-timer {
+            border: 10px solid rgba(0, 0, 0, 0.3);
+            padding: 1em;
+            border-radius: 20px;
+
+        }
+
+        td {
+            cursor: pointer;
+        }
+
+        img {
+            width: 10%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="pomodoro-clock">
+        <h1 class="pomodoro-clock__heading">Pomodoro Clock</h1>
+        <h3 class="title">Session Length</h3>
+        <div class="pomodoro-control">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><i class="fas fa-arrow-up" id="btn-increase"></i></td>
+                        <td>
+                            <h3 class="pomodoro-count">25</h3>
+                        </td>
+                        <td><i class="fas fa-arrow-down " id="btn-decrease"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+        </div>
+        </div>
+        <div class="pomodoro-timer">
+            <h3>Session</h3>
+            <div class="timing">
+                <span class="timing-minutes" id="timing-count">25</span>
+                <span>:</span>
+                <span class="timing-seconds">00</span>
+
+            </div>
+
+        </div>
+        <div class="pomodoro-player">
+            <img src="./svg/play.svg" alt="play icon" class="play">
+            <img src="./svg/pause.svg" alt="pause icon" class="pause">
+
+        </div>
+
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
